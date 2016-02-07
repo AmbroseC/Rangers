@@ -13,6 +13,7 @@ namespace Assets.Scripts.Arrows
         // Init and Effect events for the different types of arrows
         private delegate void ArrowEvent();
         private delegate void ArrowHitEvent(PlayerID hitPlayer);
+        private delegate void ArrowHitTokenEvent();
         private event ArrowEvent Init;
         private event ArrowHitEvent Effect;
 
